@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "id": "random-card",
+  "name": "random card",
+  "version": "0.1.0",
+  "type": "game-pack",
+  "entry": {
+    "setup": "setup.json",
+    "script": "scripts/main.js"
+  },
+  "assets": [
+    "assets/decks/deck-1.deck.json"
+  ],
+  "compatibility": {
+    "engine": ">=0.1 <1.0"
+  },
+  "capabilities": {
+    "version": "1",
+    "allowed": [
+      "log"
+    ]
+  },
+  "license": "MIT",
+  "tags": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "deck-66419f2d-e6ed-443e-9467-643cb8b3f3ee",
+  "name": "deck-1",
+  "face": {
+    "texturePath": "assets/textures/decks/deck-1/sheet-1.webp",
+    "columns": 1,
+    "rows": 1,
+    "cardCount": 1,
+    "cardWidthPx": 512,
+    "cardHeightPx": 716
+  },
+  "uniqueBacks": false,
+  "back": {
+    "kind": "single",
+    "texturePath": "/textures/card_back_custom.png"
+  },
+  "sideways": false,
+  "backIsHidden": false,
+  "cards": [
+    {
+      "cardId": "card-1",
+      "label": "Card 1",
+      "faceIndex": 0
+    }
+  ]
+}
